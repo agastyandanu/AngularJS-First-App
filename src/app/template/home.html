@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-3">
+  <!-- <h3 class="text-center">Welcome to My First Angular App</h3> -->
+  <div class="row my-5">
+      <div class="col-md-6">
+        <h3>Update Your Football Information</h3>
+        <h5>From Your Hand</h5>
+        <button class="btn btn-primary btn-lg mt-3"><i class="fa fa-user"></i> Get Started</button>
+      </div>
+      <div class="col-md-6">
+        <img [src]="heroImg" class="img-fluid">
+      </div>
+  </div>
+
+  <div class="row my-5">
+
+    <div class="col-md-4">
+      <div class="card p-2 shadow">
+        <img [src]="footballImg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ name.toUpperCase() }}</h5>
+          <p class="card-text">{{ title }}</p>
+          <button class="btn btn-outline-primary" style="width: 100%">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-2 shadow">
+        <img [src]="footballImg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ name.toUpperCase() }}</h5>
+          <p class="card-text">{{ title }}</p>
+          <button class="btn btn-outline-primary" style="width: 100%">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-2 shadow">
+        <img [src]="footballImg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ name.toUpperCase() }}</h5>
+          <p class="card-text">{{ title }}</p>
+          <button class="btn btn-outline-primary" style="width: 100%">Read More</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
